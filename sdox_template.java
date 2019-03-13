@@ -17,7 +17,7 @@ public class sdox_template extends driverClass {
                            String password) throws InterruptedException {
     	
     	
-        driver.get("https://chemist1.qa-ts.myresqsoftware.com/login");
+        driver.get("https://nourl/login");
         driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
         driver.findElement(By.cssSelector("input[name='email']")).sendKeys(email);
         driver.findElement(By.cssSelector("input[name='password']")).sendKeys(password);
